@@ -20,10 +20,12 @@ theme_settings:
 
   header_text_feature_image: #img/grand-canyon.jpg
   footer_text: >
-   Copyright 2016-2017 Testify Project <a href="https://github.com/testify-project/blog.github.io/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/Creative%20Commons-BY--SA-lightgrey.svg"</img></a>
+   Copyright 2016-2017 Testify Project
+   <br>
+   <a href="https://github.com/testify-project/blog/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/Creative%20Commons-BY--SA-lightgrey.svg"</img></a>
 
   # Icons
-  rss: false
+  rss: true
   email_address: sharmarke.aden@gmail.com
   behance:
   bitbucket:
@@ -45,8 +47,8 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-96183432-3"
+  disqus_shortname: "testify-project"
   muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
   katex: true # Enable if using math markup
 
@@ -70,7 +72,7 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore, vendor]
+exclude: [CNAME, README.md, SHOUTOUTS.md, .gitignore, vendor]
 permalink: /:title ## disables post output
 timezone: PST
 lsi: false
