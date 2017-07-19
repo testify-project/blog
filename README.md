@@ -1,7 +1,7 @@
 # Testify Project Blog Site
-[![Build Status](https://travis-ci.org/testify-project/blog.github.io.svg?branch=develop)](https://travis-ci.org/testify-project/blog.github.io)
+[![Build Status](https://travis-ci.org/testify-project/blog.svg?branch=develop)](https://travis-ci.org/testify-project/blog)
 [![Join the chat at https://gitter.im/blog/Lobby](https://badges.gitter.im/blog/Lobby.svg)](https://gitter.im/blog/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![License](https://img.shields.io/badge/Creative%20Commons-BY--SA-lightgrey.svg)](https://github.com/testify-project/blog.github.io/blob/master/LICENSE.md)
+[![License](https://img.shields.io/badge/Creative%20Commons-BY--SA-lightgrey.svg)](https://github.com/testify-project/blog/blob/master/LICENSE.md)
 
 ## Local Site Development
 You can set up a local version of your Jekyll GitHub Pages site to test changes to your site locally.
@@ -17,4 +17,5 @@ gem install bundler
 ```bash
 bundle exec jekyll serve
 ```
-
+## Managing Discussions
+You can manage comments via [Disqus](https://testify-project.disqus.com)
