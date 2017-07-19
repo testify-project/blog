@@ -3,8 +3,8 @@ port: 4080
 host: 0.0.0.0
 safe: false
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "" #"/blog" # the subpath of your site, e.g. /blog/
+url: "http://testifyproject.org/blog" 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
