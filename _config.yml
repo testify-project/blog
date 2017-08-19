@@ -4,7 +4,7 @@ host: 0.0.0.0
 safe: false
 
 baseurl: "/blog" #"/blog" # the subpath of your site, e.g. /blog/
-url: "http://testifyproject.org" 
+url: "https://testifyproject.org" 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
