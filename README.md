@@ -54,3 +54,11 @@ gem 'jekyll-admin', group: :jekyll_plugins
 gulp admin
 ```
 1. Go to [http://127.0.0.1:4098/admin](http://127.0.0.1:4098/admin)
+
+
+## Color Platter
+- Orange - #DC5D1E
+- Navy   - #3C4E5C
+- Brown  - #765E51
+- Black  - #000000
+- White  - #FFFFFF
