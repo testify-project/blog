@@ -18,7 +18,7 @@ theme_settings:
   header_text: >
      <h1>Software Testing Matters<h1>
 
-  header_text_feature_image: img/header_text_feature_image.png
+  header_text_feature_image: img/cover_orange_white.png
   footer_text: >
    Copyright 2016-2017 Testify Project
    <br>
@@ -26,7 +26,7 @@ theme_settings:
 
   # Icons
   rss: true
-  email_address: sharmarke.aden@gmail.com
+  email_address: "sharmarke.aden@gmail.com"
   behance:
   bitbucket:
   dribbble:
@@ -42,7 +42,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter:
+  twitter: "shaarmaarke"
   wordpress:
   youtube:
   testifyproject: http://testifyproject.org
@@ -74,7 +74,7 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, SHOUTOUTS.md, LICENSE.md, RELEASING.md, .gitignore, vendor]
+exclude: [CNAME, README.md, SHOUTOUTS.md, LICENSE.md, RELEASING.md, TODO.md, node_modules, nbproject, Gemfile*, gulpfile, package.json.gitignore, vendor]
 permalink: /:title ## disables post output
 timezone: PST
 lsi: false

@@ -1,8 +1,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-*.DS_Store
-*.gem
-.bundle
-Gemfile.lock
+.DS_Store
 /nbproject/private/
+/Gemfile.lock
+/node_modules/
