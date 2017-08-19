@@ -14,6 +14,14 @@
 </li>
 {% endif %}
 
+{% if site.theme_settings.twitter %}
+<li>
+	<a href="https://twitter.com/{{ site.theme_settings.twitter }}" title="{{ site.theme_settings.str_follow_on }} Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+{% endif %}
+
 {% if site.theme_settings.behance %}
 <li>
 	<a href="https://www.behance.net/{{ site.theme_settings.behance }}" title="{{ site.theme_settings.str_follow_on }} Behance">
@@ -50,14 +58,6 @@
 <li>
 	<a href="https://www.flickr.com/photos/{{ site.theme_settings.flickr }}" title="{{ site.theme_settings.str_follow_on }} Flickr">
 		<i class="fa fa-fw fa-flickr"></i>
-	</a>
-</li>
-{% endif %}
-
-{% if site.theme_settings.github %}
-<li>
-	<a href="https://github.com/{{ site.theme_settings.github }}" title="{{ site.theme_settings.str_follow_on }} GitHub">
-		<i class="fa fa-fw fa-github"></i>
 	</a>
 </li>
 {% endif %}
@@ -110,22 +110,6 @@
 </li>
 {% endif %}
 
-{% if site.theme_settings.testifyproject %}
-<li>
-	<a href="{{ site.theme_settings.testifyproject }}" title="{{ site.theme_settings.str_follow_on }} Testify Project">
-		<i class="fa fa-fw fa-hand-paper-o"></i>
-	</a>
-</li>
-{% endif %}
-
-{% if site.theme_settings.semantictesting %}
-<li>
-	<a href="{{ site.theme_settings.semantictesting }}" title="{{ site.theme_settings.str_follow_on }} Semantic Testing">
-		<i class="fa fa-fw fa-sort-amount-asc"></i>
-	</a>
-</li>
-{% endif %}
-
 {% if site.theme_settings.stack_exchange %}
 <li>
 	<a href="{{ site.theme_settings.stack_exchange }}" title="{{ site.theme_settings.str_follow_on }} Stack Exchange">
@@ -150,14 +134,6 @@
 </li>
 {% endif %}
 
-{% if site.theme_settings.twitter %}
-<li>
-	<a href="https://twitter.com/{{ site.theme_settings.twitter }}" title="{{ site.theme_settings.str_follow_on }} Twitter">
-		<i class="fa fa-fw fa-twitter"></i>
-	</a>
-</li>
-{% endif %}
-
 {% if site.theme_settings.wordpress %}
 <li>
 	<a href="https://{{ site.theme_settings.wordpress }}.wordpress.com/" title="{{ site.theme_settings.str_follow_on }} WordPress">
@@ -170,6 +146,30 @@
 <li>
 	<a href="https://www.youtube.com/user/{{ site.theme_settings.youtube }}" title="{{ site.theme_settings.str_follow_on }} YouTube">
 		<i class="fa fa-fw fa-youtube"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.testifyproject %}
+<li>
+	<a href="{{ site.theme_settings.testifyproject }}" title="{{ site.theme_settings.str_follow_on }} Testify Project">
+		<i class="fa fa-fw fa-hand-paper-o"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.semantictesting %}
+<li>
+	<a href="{{ site.theme_settings.semantictesting }}" title="{{ site.theme_settings.str_follow_on }} Semantic Testing">
+		<i class="fa fa-fw fa-sort-amount-asc"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.github %}
+<li>
+	<a href="https://github.com/{{ site.theme_settings.github }}" title="{{ site.theme_settings.str_follow_on }} GitHub">
+		<i class="fa fa-fw fa-github"></i>
 	</a>
 </li>
 {% endif %}
