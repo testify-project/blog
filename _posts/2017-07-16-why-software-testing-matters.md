@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Software Testing Matters
-feature-img: "img/darkness_brown.png"
+feature-img: "img/cover_brown_white.png"
 ---
 
 A few years ago I joined a young startup and within the first few weeks it became apparent that writing automated software tests was considered an optional endeavor. A senior engineer even said to me, “I don’t believe in automated software testing.” I was shocked and wondered what I had gotten myself into. After a few more weeks I realized that my teammates and the management team did not understand a) the purpose of software testing and b) what constitutes an effective software test. Without understanding both it is hard to imagine software testing having much value.

@@ -110,6 +110,22 @@
 </li>
 {% endif %}
 
+{% if site.theme_settings.testifyproject %}
+<li>
+	<a href="{{ site.theme_settings.testifyproject }}" title="{{ site.theme_settings.str_follow_on }} Testify Project">
+		<i class="fa fa-fw fa-hand-paper-o"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.semantictesting %}
+<li>
+	<a href="{{ site.theme_settings.semantictesting }}" title="{{ site.theme_settings.str_follow_on }} Semantic Testing">
+		<i class="fa fa-fw fa-sort-amount-asc"></i>
+	</a>
+</li>
+{% endif %}
+
 {% if site.theme_settings.stack_exchange %}
 <li>
 	<a href="{{ site.theme_settings.stack_exchange }}" title="{{ site.theme_settings.str_follow_on }} Stack Exchange">
